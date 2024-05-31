@@ -1,0 +1,118 @@
+body{
+    font-size:62,5%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:  url(./img/anh-nen-4k-cho-desktop_105907396.jpg);
+    background-size: 100%;
+    
+}
+.wrapper{
+    width: 30rem;
+    height: 20rem;
+    background:violet;
+    color:white;
+    border-radius: 50px;
+    background-image: url(./img/51161637616_86b457582d_b.jpg);
+
+    background-size: 100%;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.wrapper .input-box{
+    width: 100%;
+    height:3rem;
+    
+    margin:20px 0;
+    position: relative;
+    border-radius: 999px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+
+}
+.input-box input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 999px;
+    padding : 20px 45px 20px 20px;
+    
+}
+.input-box input::placeholder{
+    color:white;
+    text-align: center;
+    font-size:1.4rem; 
+}
+.on{
+    color: rgb(60, 60, 196);
+    position: absolute;
+    top:10px;
+    left:280px;
+
+
+} 
+.in input{
+    width: 18px;
+    height: 18px;
+    
+    margin-left: 5px;
+    transform: translateY(3px);
+
+    
+}
+.in{
+    position: relative;
+    font-size: 18px;
+    top:12px;
+    
+    
+}
+.register-link{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    
+}
+.at{
+    position: absolute;
+    justify-content: space-between;
+    font-size: 20px;
+    transform: translateY(10px);
+    right: 10px;
+    text-decoration: none;
+}
+.bnt{
+    display: inline;
+    width: 100%;
+    height: 45px;
+    border-radius:999px;
+    border:2px solid white;
+    font-size: 20px;
+    color:violet;
+    transform: translateY(30px);
+    color: rgb(50, 33, 202);
+    
+}
+
+    
+    
+    
+
+
